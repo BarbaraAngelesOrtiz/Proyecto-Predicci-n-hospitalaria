@@ -22,6 +22,23 @@ Se busca analizar la información post-covid para predicción de demanda de cama
 > 
 > Por el momento se conservan todas las columnas, entendiendo que todas pueden aportar información a nuestro análisis, incluyendo el 'codigo_ine' que identifica el Municipio al que pertenece el hospital (más allá de la Provincia).
 
+Analizado el dataset no se encontraron valores nulos ni duplicados. 
+EL conjunto de datos posee un número de líneas considerable donde las 'Camas ocupadas en planta' indican 0(cero). A continuación se muestran la cantidad de lineas por provincia y la proporción que representan las mismas para el subconjunto de información por provincia.
+
+| Nº | Provincia   | count_zero_camas_planta | total_count_province | proportion_zero_camas_planta |
+|----|--------------|-------------------------|-----------------------|-------------------------------|
+| 0  | Burgos       | 13                      | 4038                  | 0.321942                      |
+| 1  | León         | 2                       | 2692                  | 0.074294                      |
+| 2  | Palencia     | 3                       | 1346                  | 0.222883                      |
+| 3  | Salamanca    | 1                       | 1346                  | 0.074294                      |
+| 4  | Segovia      | 8                       | 1346                  | 0.594354                      |
+| 5  | Soria        | 3                       | 1346                  | 0.222883                      |
+| 6  | Valladolid   | 1352                    | 5384                  | 25.111441                     |
+| 7  | Zamora       | 2                       | 1346                  | 0.148588                      |
+| 8  | Ávila        | 2                       | 1346                  | 0.148588                      |
+
+Al no conocer si esa información es real o se debe a falta de informació u otro posible error de los datos, que hacer con estas filas podría tener un impacto significativo en el modelo de predicción especialmente en la provincia de Valladolid que cuenta con un 25% de la información con valores de 'camas ocupadas en planta' igual a cero. Si se conservan y no son valores reales el modelo podría subdimensionar la demanda generando un conflicto en los hospitales involucrados.
+
 ![Gráfico de líneas](/results/media/Imagen2.png)
 
 ![Gráfico de barras](/results/media/Imagen3.png)
