@@ -1,5 +1,5 @@
 # 🏥  Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados
-**NoCountry Simulación Laboral** 
+## **NoCountry Simulación Laboral** 
 
 🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
 
@@ -109,7 +109,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 
 ```bash
 git clone https://github.com/usuario/proyecto.git
-cd proyecto-churn
+cd proyecto
 ```
 
 2. Crear un entorno virtual (opcional, recomendado):
@@ -156,16 +156,10 @@ pip install -r requirements.txt
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
 
+| **Nathaly Muñoz** | **Bárbara Ángeles Ortiz** | **Valeria Donnet** |
+|---|---|---|
+| ![N](![1695752265996](https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9)) <br> [LinkedIn](https://www.linkedin.com/in/munozgnathaly/) \ | [GitHub](https://github.com/munozgnathaly-crypto)| ![B]![1736472420976](https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3) <br> [LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)  | [GitHub](https://github.com/BarbaraAngelesOrtiz)| ![V]![1729188882419](https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137) <br> [LinkedIn][LinkedIn](https://www.linkedin.com/in/valeria-donnet/) | [GitHub](https://github.com/valedonnet)|
 
-**Nathaly Muñoz** ![1695752265996](https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9)
-[LinkedIn](https://www.linkedin.com/in/munozgnathaly/) | [GitHub](https://github.com/munozgnathaly-crypto)
-
-**Bárbara Ángeles Ortiz**
-![1736472420976](https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3)
-[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
-
-**Valeria Donnet** ![1729188882419](https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137)
-[LinkedIn](https://www.linkedin.com/in/valeria-donnet/) | [GitHub](https://github.com/valedonnet)
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
