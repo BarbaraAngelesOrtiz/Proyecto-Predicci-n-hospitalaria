@@ -74,6 +74,7 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 
 <img width="1315" height="548" alt="Ocupación Total Real vs Predicción Random Forest" src="https://github.com/user-attachments/assets/bf700bbf-393e-4955-9267-d291a2af43fe" />
 <img width="1172" height="393" alt="Residuals plot (error vs fecha)" src="https://github.com/user-attachments/assets/2da00b8c-0728-4585-9ae4-34f011ed8e62" />
+<img width="1589" height="590" alt="Train + Test + Predicción Random Forest" src="https://github.com/user-attachments/assets/7ced0f32-6c36-4056-a08b-e58f3de8de99" />
 
 -------
 
