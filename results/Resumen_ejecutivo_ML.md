@@ -98,8 +98,8 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 * Ávila y Segovia presentan comportamiento estable o decreciente.
 * A nivel hospitalario, algunos centros muestran picos estacionales significativos.
   
-<img width="543" height="377" alt="Tabla Variabilidad por provincia" src="https://github.com/user-attachments/assets/dc8d19ef-fb28-44fd-92dd-ba27f6f3ce62" />
-<img width="339" height="340" alt="Tabla Variabilidad por hospital" src="https://github.com/user-attachments/assets/d62eeb4c-de67-4ec8-b25b-f59ad7cfaa03" />
+<img width="543" height="377" alt="Tabla Variabilidad por provincia-" src="https://github.com/user-attachments/assets/d0e3090a-cec6-4a03-8d91-2dc9cd6646b5" />
+<img width="339" height="332" alt="Tabla Variabilidad por hospital-" src="https://github.com/user-attachments/assets/0a1071bc-4fdb-4cb4-bac1-b7969ab6f571" />
 
 🔹 Implicaciones para la Planificación
 
