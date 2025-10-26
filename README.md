@@ -13,7 +13,7 @@ El objetivo general es construir una plataforma analítica y predictiva para ant
 
 Este proyecto representa una simulación profesional que integra las tres etapas de un flujo de datos moderno:
 
-- Data Engineering: extracción, transformación y carga (ETL) de datos hospitalarios históricos.
+- Data Engineering: extracción, transformación, carga (ETL) y análisis exploratorio (EDA) de datos hospitalarios históricos.
 - Data Analysis: exploración, visualización y análisis de correlaciones y métricas clave.
 - Machine Learning: entrenamiento y validación de modelos predictivos de ocupación hospitalaria, con proyecciones de forecasting.
 -----
@@ -26,7 +26,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 | **Data Analysis**                    | Pandas, Seaborn, Matplotlib, Plotly, PowerBI                            |
 | **Machine Learning**                 | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression |
 | **Forecasting**                      | Random Forest Regressor, análisis temporal                              |
-| **Infraestructura y Automatización** | GitHub Actions, Google Colab / Jupyter Notebooks                        |
+| **Infraestructura**                  | Google Colab / Jupyter Notebooks                        |
 
 -----
 ## 📊 Flujo General del Proyecto
@@ -39,10 +39,10 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 
 ### 2️⃣ Data Analysis
 
-Análisis exploratorio (EDA) con visualizaciones dinámicas (seaborn, plotly).
-Cálculo de correlaciones entre variables (ocupación, clima, ubicación geográfica).
-Creación de dashboards en PowerBI y notebooks interactivos para interpretación de resultados.
-Heatmaps y gráficos comparativos por hospital y provincia.
+- Análisis exploratorio (EDA) con visualizaciones dinámicas (seaborn, plotly).
+- Cálculo de correlaciones entre variables (ocupación, clima, ubicación geográfica).
+- Creación de dashboards en PowerBI y notebooks interactivos para interpretación de resultados.
+- Heatmaps y gráficos comparativos por hospital y provincia.
 
 ### 3️⃣ Machine Learning
 
@@ -103,6 +103,73 @@ Heatmaps y gráficos comparativos por hospital y provincia.
 ```
 
 ---
-## 👩‍💻 Equipo NoCountry – Simulación Laboral
+
+## 🛠️ Instrucciones para Ejecutar el Notebook
+
+1. Clonar o descargar el repositorio:
+
+```bash
+git clone https://github.com/usuario/proyecto.git
+cd proyecto-churn
+```
+
+2. Crear un entorno virtual (opcional, recomendado):
+```bash
+# Windows
+python -m venv venv
+venv\Scripts\activate
+
+# macOS / Linux
+python3 -m venv venv
+source venv/bin/activate
+```
+
+3. Instalar las dependencias necesarias:
+```bash
+pip install -r requirements.txt
+```
+
+4. Abrir el notebook:
+
+- Google Colab: Subí el notebook y los datos, y ejecutá las celdas.
+- Jupyter Notebook / VSCode: Abrí notebooks/Proyecto.ipynb y ejecutá secuencialmente las celdas.
+
+5. Ejecutar celdas:
+
+- Orden recomendado: limpieza de datos → definición de features/targets → entrenamiento de modelos → evaluación → forecasting → exportación de resultados.
+- Los archivos CSV de datos estén en la carpeta data/.
+
+6. Exportar resultados:
+
+- Los CSV con predicciones se generan en data/ por defecto.
+- Los gráficos y figuras se guardan en results/media/ y Machime_Learning/figuras.
+
+-----
+
+## 📂 Project Access
+
+- [Notebook Machine Learning](./Proyecto-Predicci-n-hospitalaria/Machine_Learning/ML_Code.ipynb)
+- [Notebook Analysis](./Proyecto-Predicci-n-hospitalaria/Analyst/Fractura_Cadera.ipynb)
+
+---
+
+## Autoras
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
+
+**Bárbara Ángeles Ortiz**
+
+<img src="https://github.com/user-attachments/assets/30ea0d40-a7a9-4b19-a835-c474b5cc50fb" width="115">
+
+[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
+
+![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
+
+![Python](https://img.shields.io/badge/python-3.10-blue)
+
+![NumPy](https://img.shields.io/badge/numpy-1.26.0-blue)
+
+![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue)
+
+
+## Agradecimientos 
