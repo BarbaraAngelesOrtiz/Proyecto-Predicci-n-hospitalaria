@@ -1,5 +1,4 @@
-# 🏥 Hospital Bed Occupancy Forecasting – NoCountry Simulation Project
-# Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados
+# 🏥  Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados- NoCountry Simulación Laboral
 
 🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
 
