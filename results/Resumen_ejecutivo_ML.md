@@ -1,9 +1,9 @@
-📊 # Resumen Ejecutivo – Modelado y Forecasting de Ocupación Hospitalaria
-🎯 ## Objetivo General
+📊 #Resumen Ejecutivo – Modelado y Forecasting de Ocupación Hospitalaria
+🎯 ##Objetivo General
 
 Desarrollar y evaluar modelos predictivos (clasificación y regresión) para estimar la ocupación hospitalaria total, de planta y UCI, así como proyectar tendencias futuras (forecasting) para el año 2025.
 
-🧠 ## 1. Selección del Modelo
+🧠 ##1. Selección del Modelo
 
 🔹 Modelos Evaluados:
 
@@ -15,7 +15,7 @@ Desarrollar y evaluar modelos predictivos (clasificación y regresión) para est
 
 ----------
 
-🧩 ## 2. Conclusiones Técnicas
+🧩 ##2. Conclusiones Técnicas
 
 🟦 Clasificación: Alta Ocupación
 
@@ -37,7 +37,7 @@ Desarrollar y evaluar modelos predictivos (clasificación y regresión) para est
 
 --------------
 
-🌳 3. Modelo Seleccionado: Random Forest
+🌳 ##3. Modelo Seleccionado: Random Forest
 ✅ Razones:
 
 * Alto desempeño en todas las tareas (clasificación y regresión).
@@ -49,7 +49,7 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 
 -------
 
-📈 4. Forecasting 2025 (Predicción Futura)
+📈 ##4. Forecasting 2025 (Predicción Futura)
 🔹 Tendencia General
 
 * El modelo predice estabilidad en la ocupación total (rango 420–480 camas).
@@ -69,7 +69,7 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 
 ------
 
-💡 Síntesis Ejecutiva
+💡 #Síntesis Ejecutiva
 
 El modelo Random Forest proporciona un equilibrio óptimo entre precisión, interpretabilidad y robustez.
 Su aplicación práctica puede optimizar la planificación hospitalaria, anticipar picos de demanda y reducir riesgos operativos, especialmente en unidades críticas como la UCI.
