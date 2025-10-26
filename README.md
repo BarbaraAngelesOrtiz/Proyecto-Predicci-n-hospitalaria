@@ -6,6 +6,7 @@
 
 Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales.
 
+------
 ## 🚀 Objetivo del Proyecto
 
 El objetivo general es construir una plataforma analítica y predictiva para anticipar la ocupación total de camas hospitalarias (planta y UCI), combinando pipelines de ingeniería de datos, análisis exploratorio, modelos de clasificación/regresión y proyecciones futuras.
@@ -15,6 +16,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 - Data Engineering: extracción, transformación y carga (ETL) de datos hospitalarios históricos.
 - Data Analysis: exploración, visualización y análisis de correlaciones y métricas clave.
 - Machine Learning: entrenamiento y validación de modelos predictivos de ocupación hospitalaria, con proyecciones de forecasting.
+-----
 
 ## 🛠️ Stack Tecnológico
 
@@ -26,6 +28,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 | **Forecasting**                      | Random Forest Regressor, análisis temporal                              |
 | **Infraestructura y Automatización** | GitHub Actions, Google Colab / Jupyter Notebooks                        |
 
+-----
 ## 📊 Flujo General del Proyecto
 
 ### 1️⃣ Data Engineering
@@ -49,7 +52,8 @@ Heatmaps y gráficos comparativos por hospital y provincia.
 - R², MAE, AUC-ROC, Precision-Recall
 - Selección final del modelo Random Forest por su robustez y rendimiento balanceado.
 - Generación de predicciones y forecasting de ocupación hasta diciembre 2025.
-
+  
+------
 ## 🤖 Resultados Principales
 
 - Modelos Top: Random Forest y Logistic Regression (AUC-ROC = 0.92)
@@ -57,6 +61,7 @@ Heatmaps y gráficos comparativos por hospital y provincia.
 - Linear Regression ofrece la mejor precisión para ocupación general.
 - Random Forest se consolida como el modelo más robusto y versátil, especialmente para la predicción crítica de UCI.
 
+----
 ## 🔮 Forecasting (Predicción Futura)
 
 - Forecast del modelo Random Forest de junio a diciembre 2025.
@@ -64,7 +69,10 @@ Heatmaps y gráficos comparativos por hospital y provincia.
 - Análisis desagregado por provincia y hospital muestra diferencias regionales clave.
 - Identificación de picos temporales y outliers críticos para gestión de recursos.
 
+-----
 ## 🗂️ Estructura del Repositorio
+
+```bash
 
 📁 Proyecto-Predicci-n-hospitalaria/
 ├── data/
@@ -80,22 +88,21 @@ Heatmaps y gráficos comparativos por hospital y provincia.
 │   ├── Resumen_ejecutivo_ML.md                 # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
 │   ├── xxxx                                    # Dashboards PowerBI o Plotly 
 │
+│
 ├── Machine_Learning/
 │   ├── ML_Code.ipynb  # Modelo final guardado
 │   ├──predicciones_random_forest.csv
-│   ├──forecast_random_forest_resto_2025_20251025_2328.csv
+│   ├──forecast_random_forest_resto_2025_.csv
 │   ├──figuras
 │       ├──forecasting
 │       ├──modelo_elegido
 │       ├──modelos
 │
-├── scripts/
-│   ├── etl_pipeline.py
-│   ├── forecast_generator.py
-│
 ├── README.md               # Descripción general del proyecto
 └── requirements.txt
+```
 
+---
 ## 👩‍💻 Equipo NoCountry – Simulación Laboral
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
