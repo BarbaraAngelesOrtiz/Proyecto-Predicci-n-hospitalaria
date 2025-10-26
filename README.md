@@ -146,9 +146,8 @@ pip install -r requirements.txt
 
 ## 📂 Project Access
 
-- [Notebook Machine Learning](./Proyecto-Predicci-n-hospitalaria/Machine_Learning/ML_Code.ipynb)
-- [Notebook Analysis](./Proyecto-Predicci-n-hospitalaria/Analyst/Fractura_Cadera.ipynb)
-
+- [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
+- [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Analyst/Fractura_Cadera.ipynb)
 ---
 
 ## Autoras
