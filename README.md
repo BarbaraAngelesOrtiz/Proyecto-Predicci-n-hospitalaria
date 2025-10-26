@@ -3,7 +3,7 @@
 
 🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
 
-Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales.
+Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales de España.
 
 ------
 ## 🚀 Objetivo del Proyecto
@@ -25,7 +25,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 | **Data Analysis**                    | Pandas, Seaborn, Matplotlib, Plotly, PowerBI                            |
 | **Machine Learning**                 | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression |
 | **Forecasting**                      | Random Forest Regressor, análisis temporal                              |
-| **Infraestructura**                  | Google Colab / Jupyter Notebooks                        |
+| **Infraestructura**                  | Google Colab / Jupyter Notebooks                                        |
 
 -----
 ## 📊 Flujo General del Proyecto
@@ -35,20 +35,19 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 - Limpieza, normalización y enriquecimiento de los datasets de ocupación.
 - Implementación de pipelines ETL en Python (extracción desde fuentes CSV y APIs).
 - Integración de datos meteorológicos y demográficos (factores externos).
+- Análisis exploratorio (EDA) de los features y targets. 
 
 ### 2️⃣ Data Analysis
 
 - Análisis exploratorio (EDA) con visualizaciones dinámicas (seaborn, plotly).
 - Cálculo de correlaciones entre variables (ocupación, clima, ubicación geográfica).
-- Creación de dashboards en PowerBI y notebooks interactivos para interpretación de resultados.
+- Creación de dashboards en Looker y notebooks interactivos para interpretación de resultados.
 - Heatmaps y gráficos comparativos por hospital y provincia.
 
 ### 3️⃣ Machine Learning
 
-- Entrenamiento de modelos de regresión y clasificación:
-- Random Forest, Linear Regression, XGBoost, MLPRegressor, Logistic Regression
-- Evaluación de rendimiento mediante métricas:
-- R², MAE, AUC-ROC, Precision-Recall
+- Entrenamiento de modelos de regresión y clasificación:Random Forest, Linear Regression, XGBoost, MLPRegressor, Logistic Regression
+- Evaluación de rendimiento mediante métricas: R², MAE, AUC-ROC, Precision-Recall
 - Selección final del modelo Random Forest por su robustez y rendimiento balanceado.
 - Generación de predicciones y forecasting de ocupación hasta diciembre 2025.
   
@@ -156,9 +155,10 @@ pip install -r requirements.txt
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
 
+
 | **Nathaly Muñoz** | **Bárbara Ángeles Ortiz** | **Valeria Donnet** |
-|---|---|---|
-| ![N](![1695752265996](https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9)) <br> [LinkedIn](https://www.linkedin.com/in/munozgnathaly/) \ | [GitHub](https://github.com/munozgnathaly-crypto)| ![B]![1736472420976](https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3) <br> [LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)  | [GitHub](https://github.com/BarbaraAngelesOrtiz)| ![V]![1729188882419](https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137) <br> [LinkedIn][LinkedIn](https://www.linkedin.com/in/valeria-donnet/) | [GitHub](https://github.com/valedonnet)|
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer<br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
 
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
