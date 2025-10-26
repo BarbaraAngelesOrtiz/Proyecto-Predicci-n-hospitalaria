@@ -69,6 +69,7 @@ Aqui algunos gráficos:
 * Capacidad para manejar no linealidades y interacciones complejas.
 * Errores bajos en variables críticas como la ocupación UCI.
 * Robustez comprobada con distintos subconjuntos de datos.
+* Se divide los datos de Entrenamiento(Train) desde: 2022-01-01 00:00:00 → 2024-09-29 00:00:00 y de Prueba (Test) desde: 2024-09-29 00:00:00 → 2025-05-31 00:00:00
 
 Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicaciones operativas y de planificación hospitalaria.
 
