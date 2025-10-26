@@ -2,6 +2,7 @@
 # Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados
 
 🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
+
 **Simulación Laboral – NoCountry**
 
 Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales.
@@ -157,19 +158,30 @@ pip install -r requirements.txt
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
 
+**Nathaly Muñoz** ![1695752265996](https://github.com/user-attachments/assets/b99fb71f-932b-4473-b5c9-80323e1b8d33)
+[LinkedIn](https://www.linkedin.com/in/munozgnathaly/) | [GitHub](https://github.com/munozgnathaly-crypto)
+
 **Bárbara Ángeles Ortiz**
-
-<img src="https://github.com/user-attachments/assets/30ea0d40-a7a9-4b19-a835-c474b5cc50fb" width="115">
-
+![IMG_20220416_132335_MP (3)](https://github.com/user-attachments/assets/949c74bd-bba1-4a69-a3b6-747fc7d7e8b4)
 [LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
+
+**Valeria Donnet** ![1729188882419](https://github.com/user-attachments/assets/42c4397f-b5e0-42ec-972c-eadabf15e8e0)
+[LinkedIn](https://www.linkedin.com/in/valeria-donnet/) | [GitHub](https://github.com/valedonnet)
+
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
-
 ![NumPy](https://img.shields.io/badge/numpy-1.26.0-blue)
-
 ![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue)
-
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange)
+![XGBoost](https://img.shields.io/badge/xgboost-1.7.6-red)
+![Matplotlib](https://img.shields.io/badge/matplotlib-3.8.0-blue)
+![Seaborn](https://img.shields.io/badge/seaborn-0.12.2-pink)
+![Plotly](https://img.shields.io/badge/plotly-5.16.1-lightblue)
 
 ## Agradecimientos 
+
+![nocountrytalent_cover2](https://github.com/user-attachments/assets/72ef3e56-a762-4976-93d5-4edf150ce1da)
+
+
