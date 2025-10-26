@@ -41,7 +41,8 @@ Aqui algunos gráficos:
 <img width="691" height="547" alt="Curvas ROC comparativas" src="https://github.com/user-attachments/assets/d5977bd1-18ad-438e-a7db-7eaba29c48bd" />
 <img width="691" height="547" alt="Curvas Precision–Recall comparativas" src="https://github.com/user-attachments/assets/12bc5104-1df1-4f40-8593-660b4a850b72" />
 <img width="528" height="471" alt="matriz de confusion" src="https://github.com/user-attachments/assets/29994edc-cb2f-41e8-8758-6429d37d12cd" />
-<img width="855" height="393" alt="Histograma de errores" src="https://github.com/user-attachments/assets/f2ad73f6-bc8e-418c-aea5-12a56b7f11f0" />
+<img width="713" height="605" alt="Radar chart" src="https://github.com/user-attachments/assets/ce06de40-294d-45ba-92f7-5b2401f4a487" />
+
 
 
 🟨 Regresión: Ocupación Específica
@@ -52,6 +53,7 @@ Aqui algunos gráficos:
   
 <img width="841" height="471" alt="Comparación de MAE entre modelos" src="https://github.com/user-attachments/assets/aee3399e-4ba5-43da-9fa1-6a097ea41dae" />
 <img width="846" height="471" alt="Comparación de R² por modelo y target" src="https://github.com/user-attachments/assets/c24cca82-935d-4a4e-bdfc-99f69dcf62dd" />
+<img width="855" height="393" alt="Histograma de errores" src="https://github.com/user-attachments/assets/f2ad73f6-bc8e-418c-aea5-12a56b7f11f0" />
 
 🟩 Análisis de Errores
 
@@ -84,10 +86,11 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 
 * El modelo predice estabilidad en la ocupación total (rango 420–480 camas).
 * Distribución de predicciones con forma gaussiana, sin picos de crisis.
-
-<img width="1005" height="471" alt="Forecast de ocupación total - resto de 2025" src="https://github.com/user-attachments/assets/c449d1ab-69fc-4fd8-8712-fd7ceb263902" />
-<img width="841" height="394" alt="Histogramas de predicciones" src="https://github.com/user-attachments/assets/b07bbda9-37a9-49a5-b41e-0b48f425e214" 
-<img width="1360" height="590" alt="Heatmaps de correlación" src="https://github.com/user-attachments/assets/1c9e585a-4cc3-42fa-b8c8-3d2918ca3858" />
+  
+<img width="1005" height="471" alt="Forecast de ocupación total - resto de 2025" src="https://github.com/user-attachments/assets/32a96e5b-eee6-41c9-819d-4e2e1a188f11" />
+<img width="1360" height="590" alt="Heatmaps de correlación" src="https://github.com/user-attachments/assets/b8944bdf-59cd-4b46-be81-2e0887eb0eb6" />
+<img width="841" height="394" alt="Histogramas de predicciones" src="https://github.com/user-attachments/assets/f737bb9f-1ffc-47d7-bd2b-9266757c4936" />
+<img width="841" height="393" alt="Distribución de errores simulados" src="https://github.com/user-attachments/assets/ff849ec1-add4-4fd9-924c-415b80a63c4a" />
 
 🔹 Variabilidad Regional
 
@@ -95,17 +98,17 @@ Conclusión: Random Forest es el modelo más equilibrado y fiable para aplicacio
 * Ávila y Segovia presentan comportamiento estable o decreciente.
 * A nivel hospitalario, algunos centros muestran picos estacionales significativos.
   
-<img width="504" height="368" alt="Variabilidad temporal por hospital" src="https://github.com/user-attachments/assets/8269d39c-15ff-4222-8842-ade158b27ed4" />
-<img width="333" height="338" alt="Variabilidad temporal por provincia" src="https://github.com/user-attachments/assets/01b92775-584b-4c64-a4f5-ba830b7fe215" />
-  
+<img width="339" height="340" alt="Tabla Variabilidad por hospital" src="https://github.com/user-attachments/assets/f50a0ea0-69dc-4cd2-86cd-f6fe8f8b6c02" />
+<img width="543" height="377" alt="Tabla Variabilidad por provincia" src="https://github.com/user-attachments/assets/dc8d19ef-fb28-44fd-92dd-ba27f6f3ce62" />
+
 🔹 Implicaciones para la Planificación
 
 * Bajo riesgo de saturación global en 2025.
 * Se recomienda monitorear los hospitales outliers con fluctuaciones extremas.
 * Las predicciones futuras deben combinarse con variables externas (clima, eventos epidémicos, cambios demográficos) para mayor precisión.
-
-<img width="1173" height="590" alt="Evolución temporal por hospital" src="https://github.com/user-attachments/assets/df7581e5-0b04-46a0-8c86-411a4b80f806" />
-<img width="1186" height="590" alt="Evolución temporal por provincia" src="https://github.com/user-attachments/assets/24814078-2403-4ede-95d2-4fe24d428e7a" />
+  
+<img width="1173" height="590" alt="Variabilidad temporal por hospital-" src="https://github.com/user-attachments/assets/1a9edaf8-d1ab-4084-9578-2c4e236cc03b" />
+<img width="1186" height="590" alt="Variabilidad temporal por provincia-" src="https://github.com/user-attachments/assets/759d850f-7f9d-480f-850a-e12d241739d4" />
 
 ------
 
