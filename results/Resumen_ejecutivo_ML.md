@@ -37,6 +37,7 @@ Los gráficos de correlaciones entre variables base y morbilidad con targets, y 
 * Las curvas ROC y Precision-Recall confirman excelente discriminación de clases.
 
 Aqui algunos gráficos: 
+
 <img width="691" height="547" alt="Curvas ROC comparativas" src="https://github.com/user-attachments/assets/d5977bd1-18ad-438e-a7db-7eaba29c48bd" />
 <img width="691" height="547" alt="Curvas Precision–Recall comparativas" src="https://github.com/user-attachments/assets/12bc5104-1df1-4f40-8593-660b4a850b72" />
 <img width="528" height="471" alt="matriz de confusion" src="https://github.com/user-attachments/assets/29994edc-cb2f-41e8-8758-6429d37d12cd" />
