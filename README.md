@@ -21,8 +21,8 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 
 | Área                                 | Herramientas                                                            |
 | ------------------------------------ | ----------------------------------------------------------------------- |
-| **Data Engineering**                 | Python, Pandas, SQL, Google Cloud Storage, ETL pipelines                |
-| **Data Analysis**                    | Pandas, Seaborn, Matplotlib, Plotly, PowerBI                            |
+| **Data Engineering**                 | Python, Pandas, SQL, ETL pipelines                                      |
+| **Data Analysis**                    | Pandas, Seaborn, Matplotlib, Plotly, Looker                             |
 | **Machine Learning**                 | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression |
 | **Forecasting**                      | Random Forest Regressor, análisis temporal                              |
 | **Infraestructura**                  | Google Colab / Jupyter Notebooks                                        |
