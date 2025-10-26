@@ -1,8 +1,7 @@
-# 🏥  Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados- NoCountry Simulación Laboral
+# 🏥  Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados
+**NoCountry Simulación Laboral** 
 
 🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
-
-**Simulación Laboral – NoCountry**
 
 Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales.
 
@@ -157,16 +156,16 @@ pip install -r requirements.txt
 
 Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
 
-**Nathaly Muñoz** ![1695752265996](https://github.com/user-attachments/assets/b99fb71f-932b-4473-b5c9-80323e1b8d33)
+
+**Nathaly Muñoz** ![1695752265996](https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9)
 [LinkedIn](https://www.linkedin.com/in/munozgnathaly/) | [GitHub](https://github.com/munozgnathaly-crypto)
 
 **Bárbara Ángeles Ortiz**
-![IMG_20220416_132335_MP (3)](https://github.com/user-attachments/assets/949c74bd-bba1-4a69-a3b6-747fc7d7e8b4)
+![1736472420976](https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3)
 [LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
 
-**Valeria Donnet** ![1729188882419](https://github.com/user-attachments/assets/42c4397f-b5e0-42ec-972c-eadabf15e8e0)
+**Valeria Donnet** ![1729188882419](https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137)
 [LinkedIn](https://www.linkedin.com/in/valeria-donnet/) | [GitHub](https://github.com/valedonnet)
-
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
