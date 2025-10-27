@@ -1,0 +1,13 @@
+{
+  "manifest_version": 3,
+  "name": "Hospital AI Summarizer",
+  "version": "1.0",
+  "description": "Analiza datos hospitalarios y genera resúmenes con la Summarizer API integrada en Chrome.",
+  "permissions": ["activeTab", "storage"],
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "icon16.png"
+    }
+  }
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Predicción Hospitalaria</title>
+    <link rel="stylesheet" href="style.css" />
+    <style>
+      body { font-family: Arial, sans-serif; padding:10px; width:400px; }
+      h2 { text-align:center; }
+      #charts { display:flex; flex-direction:column; gap:15px; margin-top:10px; }
+      canvas { width:100%; height:200px; }
+      #botInput { width:70%; }
+      #botBtn { width:25%; }
+      #botOutput { margin-top:10px; background:#f0f0f0; padding:5px; border-radius:5px; max-height:120px; overflow-y:auto; }
+      label { font-weight: bold; display:block; margin-top:8px; }
+    </style>
+  </head>
+
+  <body>
+    <h2>🏥 Predicción Hospitalaria</h2>
+
+    <!-- 🔹 Nueva sección: Cargar ambos datasets -->
+    <h3>📁 Cargar datasets</h3>
+
+    <label>Datos históricos (Data Engineer):</label>
+    <input type="file" id="fileHospital" accept=".csv" />
+
+    <label>Predicciones (Forecasting ML):</label>
+    <input type="file" id="filePredicciones" accept=".csv" />
+
+    <br>
+    <button id="analyzeBtn">Analizar CSV</button>
+
+    <div id="output"></div>
+
+    <div id="charts">
+      <canvas id="ocupacionChart"></canvas>
+    </div>
+
+    <div id="botSection">
+      <input type="text" id="botInput" placeholder="Pregunta al bot..." />
+      <button id="botBtn">Preguntar</button>
+      <div id="botOutput"></div>
+    </div>
+
+    <script src="papaparse.min.js"></script>
+    <script src="chart.min.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
+
+
+
