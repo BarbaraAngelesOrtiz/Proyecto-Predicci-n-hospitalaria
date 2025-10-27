@@ -23,6 +23,8 @@ Los archivos csv de datos historicos y predicción forecasting son producto del 
 
 ✅ Interfaz tipo chat-bot, simple e intuitiva, para realizar consultas interactivas
 
+<img width="577" height="711" alt="imagen 1" src="https://github.com/user-attachments/assets/3406933f-f95e-40bd-aba7-867ccb18bfa1" />
+
 ----
 
 ## 💬 Preguntas que el bot puede responder
@@ -39,6 +41,8 @@ Se puede escribir directamente alguna de estas frases (o similares):
 | ¿Cuál es la predicción de camas para mañana?    | Busca en el archivo de predicciones el valor correspondiente al día siguiente |
 | ¿Cuál es la tendencia de las predicciones?      | Analiza si las predicciones aumentan, bajan o se mantienen estables           |
 | ¿Cuál fue la predicción más alta?               | Informa el valor máximo proyectado y su fecha correspondiente                 |
+
+<img width="597" height="733" alt="imagen 8" src="https://github.com/user-attachments/assets/a06274e9-9bc5-4159-a0e9-30973635a8a9" />
 
 ----
 
