@@ -75,10 +75,7 @@ Se puede escribir directamente alguna de estas frases (o similares):
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
-![JavaScript](https://img.shields.io/badge/JavaScript-brightgreen)
-
-![PapaParse](https://img.shields.io/badge/PapaParse-brightgreen)
-
-![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-brightgreen)
-
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+![PapaParse](https://img.shields.io/badge/PapaParse-lightgrey)
+![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-blue)
 ![CSV](https://img.shields.io/badge/CSV-brightgreen)
