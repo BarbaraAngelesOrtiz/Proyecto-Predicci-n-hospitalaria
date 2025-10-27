@@ -208,27 +208,19 @@ Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
-
 ![NumPy](https://img.shields.io/badge/numpy-1.26.0-blue)
-
 ![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue)
 
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange)
-
 ![XGBoost](https://img.shields.io/badge/xgboost-1.7.6-red)
 
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3.8.0-blue)
-
 ![Seaborn](https://img.shields.io/badge/seaborn-0.12.2-pink)
-
 ![Plotly](https://img.shields.io/badge/plotly-5.16.1-lightblue)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
-
 ![PapaParse](https://img.shields.io/badge/PapaParse-lightgrey)
-
 ![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-blue)
-
 ![CSV](https://img.shields.io/badge/CSV-brightgreen)
 
 
