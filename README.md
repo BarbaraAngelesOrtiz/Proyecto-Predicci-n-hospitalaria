@@ -223,6 +223,15 @@ Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https
 
 ![Plotly](https://img.shields.io/badge/plotly-5.16.1-lightblue)
 
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
+
+![PapaParse](https://img.shields.io/badge/PapaParse-lightgrey)
+
+![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-blue)
+
+![CSV](https://img.shields.io/badge/CSV-brightgreen)
+
+
 ## Agradecimientos 
 
 ![nocountrytalent_cover2](https://github.com/user-attachments/assets/b6e30061-b91e-45c6-b44a-06b3be490790)
