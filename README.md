@@ -106,9 +106,11 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │   ├── Fractura_Cadera.ipynb
 │
 ├── results/
-│   ├── media/                                  # Visualizaciones y gráficos
+│   ├── media/                                  # Visualizaciones y gráficos de Data engineer
 │   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md     # Reporte de Data Engineer de Ocupación Hospitalaria
 │   ├── Resumen_ejecutivo_ML.md                 # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
+│   ├── README Bot – ChromeAI.md                # Descripción general del Bot Chrome AI
+│   ├── imagen BOT AI                           # Visualizaciones del Bot Chrome AI
 │   └──xxxx                                     # Dashboards PowerBI o Plotly 
 │
 │
@@ -132,13 +134,13 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │     │      ├── hospital_data.csv               # Ejemplo de datos históricos  
 │     │      └── predicciones.csv                # Ejemplo de datos de predicción  
 │     │  
-│     ├── icon128.png                             # Icono de alta resolución
-│     ├── icon48.png                              # Icono del bot (para la extensión)
-│     ├── icon16.png                              # Icono pequeño que aparece en la barra de extensiones de Chrome
-│     └── README.md                               # Documentación del proyecto
+│     ├── icon128.png                            # Icono de alta resolución
+│     ├── icon48.png                             # Icono del bot (para la extensión)
+│     ├── icon16.png                             # Icono pequeño que aparece en la barra de extensiones de Chrome
+│     └── README.md                              # Documentación del proyecto
 │
-├── README.md                                     # Descripción general del proyecto
-└── requirements.txt
+├── README.md                                    # Descripción general del proyecto
+└── requirements.txt                             # Librerías necesarias para ejecutar el proyecto
 ```
 
 ---
