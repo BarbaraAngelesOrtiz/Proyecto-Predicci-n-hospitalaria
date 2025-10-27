@@ -3,7 +3,7 @@
 Una herramienta interactiva desarrollada en JavaScript que permite analizar datos hospitalarios y predicciones de ocupación de camas a partir de archivos CSV.
 El proyecto incluye un asistente integrado que responde preguntas en lenguaje natural, procesando tanto datos históricos como predicciones futuras.
 
-Los archivos csv de deatos historicos y predicción forecasting son producto del proyecto [Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados en España](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria)
+Los archivos csv de datos historicos y predicción forecasting son producto del proyecto [Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados en España](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria)
 
 ----
 
@@ -70,3 +70,11 @@ Se puede escribir directamente alguna de estas frases (o similares):
 [LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/) | [GitHub](https://github.com/BarbaraAngelesOrtiz)
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
+
+![JavaScript](https://img.shields.io/badge/JavaScript-brightgreen)
+
+![PapaParse](https://img.shields.io/badge/PapaParse-brightgreen)
+
+![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-brightgreen)
+
+![CSV](https://img.shields.io/badge/CSV-brightgreen)
