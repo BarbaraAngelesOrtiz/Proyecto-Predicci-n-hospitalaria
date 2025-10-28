@@ -99,29 +99,26 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 
 📁 Proyecto-Predicci-n-hospitalaria/
 ├── data/
-│   ├── raw/                                   # Datos originales
-│   └──clean/                                  # Datos limpios y listos para análisis
-│
-├── Analysis/
-│   ├── Fractura_Cadera.ipynb
-│
-├── results/
-│   ├── media/                                  # Visualizaciones y gráficos de Data engineer
-│   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md     # Reporte de Data Engineer de Ocupación Hospitalaria
-│   ├── Resumen_ejecutivo_ML.md                 # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
-│   ├── README Bot – ChromeAI.md                # Descripción general del Bot Chrome AI
-│   ├── imagen BOT AI                           # Visualizaciones del Bot Chrome AI
-│   └──xxxx                                     # Dashboards PowerBI o Plotly 
-│
+│   ├── raw/                                                           # Datos originales
+│   └──clean/                                                          # Datos limpios y listos para análisis
+│     ├── predicciones_random_forest.csv                               # Dataset ML Forecasting 
+│     ├── forecast_random_forest_resto_2025_.csv                       # Dataset ML Modelo elegido
+│     └── 1_camas_hosp_clima_encod.csv                                 # Dataset Data Engineer 
+│ 
+├── Data Analysis/
+│   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
+│   └──Imágenes DA/                                                    # Visualizaciones y gráficos de Data engineer
+│ 
+├── Data Engineer/
+│   ├── Fractura_Cadera.ipynb                                          # Código Data Engineer ETL
+│   └── Preparacion_dataset.ipynb                                      # Código Data Engineer EDA
 │
 ├── Machine_Learning/
-│   ├── ML_Code.ipynb  # Modelo final guardado
-│   ├──predicciones_random_forest.csv
-│   ├──forecast_random_forest_resto_2025_.csv
-│   └──figuras
-│       ├──forecasting
-│       ├──modelo_elegido
-│       └──modelos
+│   ├── ML_Code.ipynb                                                 # Código Machine Learning Engineer
+│   └──figuras/                                                       # Visualizaciones y gráficos de Machine Learning Engineer
+│       ├──forecasting/
+│       ├──modelo_elegido/
+│       └──modelos/
 │ 
 ├──Prediccion-Hospitalaria-Bot-ChromeAI/
 │     │
@@ -130,7 +127,7 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │     ├── papaparse.min.js                       # Librería para leer y procesar archivos CSV
 │     ├── manifest.json                          # Configuración de la extensión de Chrome (ChromeAI)
 │     ├── style.css                              # (opcional) Estilos visuales  
-│     ├── data
+│     ├── data/
 │     │      ├── hospital_data.csv               # Ejemplo de datos históricos  
 │     │      └── predicciones.csv                # Ejemplo de datos de predicción  
 │     │  
@@ -138,6 +135,14 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │     ├── icon48.png                             # Icono del bot (para la extensión)
 │     ├── icon16.png                             # Icono pequeño que aparece en la barra de extensiones de Chrome
 │     └── README.md                              # Documentación del proyecto
+│
+├── results/
+│   ├── media/                                  # Visualizaciones y gráficos de Data engineer
+│   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md     # Reporte de Data Engineer de Ocupación Hospitalaria
+│   ├── Resumen_ejecutivo_ML.md                 # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
+│   ├── README Bot – ChromeAI.md                # Descripción general del Bot Chrome AI
+│   ├── imagen BOT AI                           # Visualizaciones del Bot Chrome AI
+│   └──xxxx                                     # Dashboards PowerBI o Plotly
 │
 ├── README.md                                    # Descripción general del proyecto
 └── requirements.txt                             # Librerías necesarias para ejecutar el proyecto
