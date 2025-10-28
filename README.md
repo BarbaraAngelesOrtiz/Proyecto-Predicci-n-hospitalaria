@@ -247,6 +247,7 @@ pip install -r requirements.txt
 
 ## 📂 Accesos del Proyecto
 
+- [Dashboard Looker](https://lookerstudio.google.com/reporting/42a8f2b3-c97a-4e49-9792-048cd5b342eb/page/7XDdF?s=p1pMHtUUhws)
 - [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
 - [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Data%20Analyst/An%C3%A1lisis_y_Visualizaci%C3%B3n_de_Demanda_Hospitalaria01.ipynb)
 - [Notebook Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/tree/main/Data%20Engineer)
