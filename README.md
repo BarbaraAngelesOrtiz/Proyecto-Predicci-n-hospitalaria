@@ -136,7 +136,12 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │ 
 ├── Data Analysis/
 │   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
-│   └── Imágenes DA/                                                   # Visualizaciones y gráficos de Data engineer
+│   ├── Imágenes DA/                                                   # Visualizaciones y gráficos de Data Analyst
+│   └── Datos para visualización/looker_hospital_demand
+│       ├── alertas_pico_valle.csv
+│       ├── base_historica.csv
+│       ├── matriz_correlacion.csv
+│       └── pronostico_ensemble.csv
 │ 
 ├── Data Engineer/                                                     # Código Data Engineer
 │   ├── Preparacion dataset.ipynb
@@ -148,7 +153,7 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │
 ├── Machine_Learning/
 │   ├── ML_Code.ipynb                                                  # Código Machine Learning Engineer
-│   └──figuras/                                                        # Visualizaciones y gráficos de Machine Learning Engineer
+│   └── figuras/                                                        # Visualizaciones y gráficos de Machine Learning Engineer
 │       ├── forecasting/
 │       ├── modelo_elegido/
 │       └── modelos/
@@ -161,8 +166,8 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │     ├── manifest.json                                               # Configuración de la extensión de Chrome (ChromeAI)
 │     ├── style.css                                                   # (opcional) Estilos visuales  
 │     ├── data/
-│     │      ├── hospital_data.csv                                    # Ejemplo de datos históricos  
-│     │      └── predicciones.csv                                     # Ejemplo de datos de predicción  
+│     │      ├── hospital_data.csv                                    # Dataset Data Engineer 
+│     │      └── predicciones.csv                                     # Dataset ML Forecasting  
 │     │  
 │     ├── icon128.png                                                 # Icono de alta resolución
 │     ├── icon48.png                                                  # Icono del bot (para la extensión)
@@ -188,6 +193,7 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │   ├── Resumen_ejecutivo_ML.md                                       # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
 │   ├── README Bot – ChromeAI.md                                      # Descripción general del Bot Chrome AI
 │   ├── imagen BOT AI                                                 # Visualizaciones del Bot Chrome AI
+│   ├── imagen Agentes                                                # Visualizaciones de los Agentes de automatización
 │   └──xxxx                                                           # Dashboards PowerBI o Plotly
 │
 ├── README.md                                                         # Descripción general del proyecto
