@@ -3,7 +3,7 @@
 Este proyecto implementa un **pipeline automatizado** basado en **GitHub Actions** y agentes en Python para gestionar y monitorear datos hospitalarios en tiempo real.  
 El sistema combina integración de datos, análisis de ocupación y envío de alertas automáticas por Telegram.
 
-Los archivos csv de datos historicos y predicción forecasting son producto del proyecto [Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados en España](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria)
+Los archivos csv de datos historicos y predicción forecasting son producto del proyecto [Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados en España](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/tree/main/data/clean)
 
 ---
 
