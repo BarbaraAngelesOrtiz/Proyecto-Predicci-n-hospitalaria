@@ -1,32 +1,35 @@
 # 🏥  Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados
 ## **NoCountry Simulación Laboral** 
 
-🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer
+🧩 Roles: Data Engineer | Data Analyst | Machine Learning Engineer | Automation Engineer
 
-Desarrollo integral de un sistema de análisis, modelado predictivo y forecasting de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales de España.
+Desarrollo integral de un sistema de análisis, modelado predictivo, forecasting y automatización de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales de España.
 
 ------
 ## 🚀 Objetivo del Proyecto
 
-El objetivo general es construir una plataforma analítica y predictiva para anticipar la ocupación total de camas hospitalarias (planta y UCI), combinando pipelines de ingeniería de datos, análisis exploratorio, modelos de clasificación/regresión y proyecciones futuras.
+El objetivo general es construir una plataforma analítica y predictiva para anticipar la ocupación total de camas hospitalarias (planta y UCI), combinando pipelines de ingeniería de datos, análisis exploratorio, modelos de machine learning, proyecciones futuras y alertas en tiempo real.
 
-Este proyecto representa una simulación profesional que integra las tres etapas de un flujo de datos moderno:
+Este proyecto representa una simulación profesional que integra las varias etapas de un flujo de datos moderno:
 
 - Data Engineering: extracción, transformación, carga (ETL) y análisis exploratorio (EDA) de datos hospitalarios históricos.
 - Data Analysis: exploración, visualización y análisis de correlaciones y métricas clave.
 - Machine Learning: entrenamiento y validación de modelos predictivos de ocupación hospitalaria, con proyecciones de forecasting.
+- Automation Engineer: descarga y actualización de datos hospitalarios desde Google Drive a Google Sheets. Publicación de resultados y envío de alertas vía Telegram. Visualización interactiva de predicciones y CSV locales desde navegador.
 
 -----
 
 ## 🛠️ Stack Tecnológico
 
-| Área                                 | Herramientas                                                            |
-| ------------------------------------ | ----------------------------------------------------------------------- |
-| **Data Engineering**                 | Python, Pandas, SQL, ETL pipelines                                      |
-| **Data Analysis**                    | Pandas, Seaborn, Matplotlib, Plotly, Looker                             |
-| **Machine Learning**                 | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression |
-| **Forecasting**                      | Random Forest Regressor, análisis temporal                              |
-| **Infraestructura**                  | Google Colab / Jupyter Notebooks                                        |
+| Área                                         | Herramientas / Tecnologías principales                                          |
+| -------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Data Engineering**                         | Python, Pandas, SQL, ETL pipelines                                              |
+| **Data Analysis**                            | Pandas, Seaborn, Matplotlib, Plotly, Looker                                     |
+| **Machine Learning**                         | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression         |
+| **Forecasting**                              | Random Forest Regressor, análisis temporal                                      |
+| **Infraestructura**                          | Google Colab / Jupyter Notebooks                                                |
+| **Automatización & Monitoreo**               | GitHub Actions, Google Drive API, Google Sheets API (GSpread), Telegram Bot API |
+| **Aplicaciones Interactivas (Bot ChromeAI)** | JavaScript, HTML, CSS, PapaParse, Chrome Extensions API                         |
 
 -----
 ## 📊 Flujo General del Proyecto
@@ -50,7 +53,20 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 - Entrenamiento de modelos de regresión y clasificación:Random Forest, Linear Regression, XGBoost, MLPRegressor, Logistic Regression
 - Evaluación de rendimiento mediante métricas: R², MAE, AUC-ROC, Precision-Recall
 - Selección final del modelo Random Forest por su robustez y rendimiento balanceado.
-- Generación de predicciones y forecasting de ocupación hasta diciembre 2025. 
+- Generación de predicciones y forecasting de ocupación hasta diciembre 2025.
+
+### 4️⃣ Automatización y Monitoreo
+
+- Ejecución programada diaria mediante GitHub Actions (cron).
+- Envío de alertas vía Telegram Bot API cuando se detectan niveles críticos.
+- Almacenamiento y trazabilidad de logs en el repositorio.
+
+### 5️⃣ Aplicación Interactiva (Bot ChromeAI)
+
+- Extensión de navegador desarrollada con JavaScript, HTML y CSS.
+- Lectura y procesamiento local de archivos CSV usando PapaParse.
+- Visualización de predicciones e indicadores en tiempo real.
+- Interfaz educativa y accesible para usuarios no técnicos.  
   
 ------
 ## 🤖 Resultados Principales
@@ -73,7 +89,6 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 ## 💬 Predicción Hospitalaria Bot – ChromeAI
 
 Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicciones de ocupación de camas desde archivos CSV. Incluye un asistente tipo chat que responde preguntas en lenguaje natural sobre datos históricos y proyecciones futuras.
-
 
 📈 Características principales
 
@@ -223,6 +238,7 @@ pip install -r requirements.txt
 
 - [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
 - [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Analyst/Fractura_Cadera.ipynb)
+  
 - [Predicción Hospitalaria Bot – ChromeAI](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
 - [Reporte ejecutivo Machine Learning](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria/blob/main/results/Resumen_ejecutivo_ML.md)
 ---
