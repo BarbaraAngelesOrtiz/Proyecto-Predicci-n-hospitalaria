@@ -122,19 +122,19 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │ 
 ├──Prediccion-Hospitalaria-Bot-ChromeAI/
 │     │
-│     ├── popup.html                             # Interfaz principal  
-│     ├── popup.js                               # Lógica del análisis y bot interactivo  
-│     ├── papaparse.min.js                       # Librería para leer y procesar archivos CSV
-│     ├── manifest.json                          # Configuración de la extensión de Chrome (ChromeAI)
-│     ├── style.css                              # (opcional) Estilos visuales  
+│     ├── popup.html                                                  # Interfaz principal  
+│     ├── popup.js                                                    # Lógica del análisis y bot interactivo  
+│     ├── papaparse.min.js                                            # Librería para leer y procesar archivos CSV
+│     ├── manifest.json                                               # Configuración de la extensión de Chrome (ChromeAI)
+│     ├── style.css                                                   # (opcional) Estilos visuales  
 │     ├── data/
-│     │      ├── hospital_data.csv               # Ejemplo de datos históricos  
-│     │      └── predicciones.csv                # Ejemplo de datos de predicción  
+│     │      ├── hospital_data.csv                                   # Ejemplo de datos históricos  
+│     │      └── predicciones.csv                                    # Ejemplo de datos de predicción  
 │     │  
-│     ├── icon128.png                            # Icono de alta resolución
-│     ├── icon48.png                             # Icono del bot (para la extensión)
-│     ├── icon16.png                             # Icono pequeño que aparece en la barra de extensiones de Chrome
-│     └── README.md                              # Documentación del proyecto
+│     ├── icon128.png                                                # Icono de alta resolución
+│     ├── icon48.png                                                 # Icono del bot (para la extensión)
+│     ├── icon16.png                                                 # Icono pequeño que aparece en la barra de extensiones de Chrome
+│     └── README.md                                                  # Documentación del proyecto
 │
 ├── results/
 │   ├── media/                                  # Visualizaciones y gráficos de Data engineer
