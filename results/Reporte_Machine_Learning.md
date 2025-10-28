@@ -1,4 +1,5 @@
-# 📊 Resumen Ejecutivo – Modelado y Forecasting de Ocupación Hospitalaria
+# 📊 Reporte – Modelado y Forecasting de Ocupación Hospitalaria
+
 ## 🎯 Objetivo General
 
 Desarrollar y evaluar modelos predictivos (clasificación y regresión) para estimar la ocupación hospitalaria total, de planta y UCI, así como proyectar tendencias futuras (forecasting) para el año 2025.
