@@ -136,15 +136,19 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │ 
 ├── Data Analysis/
 │   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
-│   └── Imágenes DA/                                                    # Visualizaciones y gráficos de Data engineer
+│   └── Imágenes DA/                                                   # Visualizaciones y gráficos de Data engineer
 │ 
-├── Data Engineer/
-│   ├── Fractura_Cadera.ipynb                                          # Código Data Engineer ETL
-│   └── Preparacion_dataset.ipynb                                      # Código Data Engineer EDA
+├── Data Engineer/                                                     # Código Data Engineer
+│   ├── Preparacion dataset.ipynb
+│   ├── 1_Fractura_Cadera.ipynb
+│   ├── 2_Insuficiencia_cardiaca.ipynb
+│   ├── 3_Infarto_agudo_miocardio.ipynb
+│   ├── 4_ictus.ipynb
+│   └── 5_epoc.ipynb                                                              
 │
 ├── Machine_Learning/
-│   ├── ML_Code.ipynb                                                 # Código Machine Learning Engineer
-│   └──figuras/                                                       # Visualizaciones y gráficos de Machine Learning Engineer
+│   ├── ML_Code.ipynb                                                  # Código Machine Learning Engineer
+│   └──figuras/                                                        # Visualizaciones y gráficos de Machine Learning Engineer
 │       ├── forecasting/
 │       ├── modelo_elegido/
 │       └── modelos/
@@ -238,9 +242,13 @@ pip install -r requirements.txt
 
 - [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
 - [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Analyst/Fractura_Cadera.ipynb)
+- [Notebook Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/tree/main/Data%20Engineer)
   
+- [Reporte ejecutivo Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Resumen_ejecutivo_ML.md)
+- [Reporte Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/REPORTE_DE_ANALISIS_EXPLORATORIO_22.md
 - [Predicción Hospitalaria Bot – ChromeAI](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
-- [Reporte ejecutivo Machine Learning](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria/blob/main/results/Resumen_ejecutivo_ML.md)
+- [Predicción Hospitalaria Agentes Inteligentes](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Readme%20Agentes.md)
+
 ---
 
 ## Autoras
