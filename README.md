@@ -144,8 +144,8 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │   ├── imagen BOT AI                           # Visualizaciones del Bot Chrome AI
 │   └──xxxx                                     # Dashboards PowerBI o Plotly
 │
-├── README.md                                    # Descripción general del proyecto
-└── requirements.txt                             # Librerías necesarias para ejecutar el proyecto
+├── README.md                                   # Descripción general del proyecto
+└── requirements.txt                            # Librerías necesarias para ejecutar el proyecto
 ```
 
 ---
