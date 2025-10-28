@@ -107,7 +107,7 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │ 
 ├── Data Analysis/
 │   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
-│   └──Imágenes DA/                                                    # Visualizaciones y gráficos de Data engineer
+│   └── Imágenes DA/                                                    # Visualizaciones y gráficos de Data engineer
 │ 
 ├── Data Engineer/
 │   ├── Fractura_Cadera.ipynb                                          # Código Data Engineer ETL
@@ -116,11 +116,11 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 ├── Machine_Learning/
 │   ├── ML_Code.ipynb                                                 # Código Machine Learning Engineer
 │   └──figuras/                                                       # Visualizaciones y gráficos de Machine Learning Engineer
-│       ├──forecasting/
-│       ├──modelo_elegido/
-│       └──modelos/
+│       ├── forecasting/
+│       ├── modelo_elegido/
+│       └── modelos/
 │ 
-├──Prediccion-Hospitalaria-Bot-ChromeAI/
+├── Prediccion-Hospitalaria-Bot-ChromeAI/
 │     │
 │     ├── popup.html                                                  # Interfaz principal  
 │     ├── popup.js                                                    # Lógica del análisis y bot interactivo  
@@ -135,6 +135,19 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │     ├── icon48.png                                                  # Icono del bot (para la extensión)
 │     ├── icon16.png                                                  # Icono pequeño que aparece en la barra de extensiones de Chrome
 │     └── README.md                                                   # Documentación del proyecto
+│
+├── Agentes_Automatizacion/
+│     ├── Agente1_data.py                                             # Agente que sincroniza datos desde Google Drive a Google Sheets
+│     ├── Agente2_alertas.py                                          # Agente que analiza la ocupación y envía alertas
+│     ├── data/                                                       # Datos limpios y listos para análisis
+│     │     ├── hospital_data.csv                                     # Dataset Data Engineer 
+│     │     └── predicciones.csv                                      # Dataset ML Forecasting 
+│     └── imagen/                                                     # Visualizaciones y gráficos de los Agentes
+│
+├── .github/                                          
+│   └── workflows/                                                    
+│       ├── Agente 1.yaml                                             # Workflow Agente 1: Sincronización de datos Drive → Sheets
+│       └── Agente 2.yaml                                             # Workflow Agente 2: Analiza los datos y genera alertas de ocupación por Telegram
 │
 ├── results/
 │   ├── media/                                                        # Visualizaciones y gráficos de Data engineer
@@ -228,6 +241,9 @@ Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https
 ![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-blue)
 ![CSV](https://img.shields.io/badge/CSV-brightgreen)
 
+![GoogleAPI](https://img.shields.io/badge/Google_API-integrated-yellow)
+![Telegram](https://img.shields.io/badge/Alerts-Telegram-blueviolet)
+![GitHubActions](https://img.shields.io/badge/CI-GitHub_Actions-black)
 
 ## Agradecimientos 
 
