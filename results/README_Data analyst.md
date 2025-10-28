@@ -1,7 +1,7 @@
 # Resumen Analítico — Predicción de Demanda Hospitalaria
 
 **Fecha generación:** 2025-10-28 19:37 UTC
-
+[Dashboard Looker](https://lookerstudio.google.com/reporting/42a8f2b3-c97a-4e49-9792-048cd5b342eb/page/7XDdF?s=p1pMHtUUhws)
 
 ## 1. Objetivo
 
