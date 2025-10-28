@@ -92,7 +92,7 @@ Cada ejecución queda registrada en los logs de GitHub Actions y en la hoja `ale
 
 ---
 
-## Author
+## Autora
 **Bárbara Ángeles Ortiz**
 
 <img src="https://github.com/user-attachments/assets/30ea0d40-a7a9-4b19-a835-c474b5cc50fb" width="115">
