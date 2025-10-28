@@ -44,7 +44,7 @@ Desarrollar una arquitectura de datos y automatización capaz de:
 - **Estructura modular** del repositorio (`data`, `notebooks`, `api`, `results`).  
 - **Modelos predictivos:** Linear Regression, MLPRegressor, Random Forest Regressor, XGBoost Regressor y Logistic Regression con métricas RMSE, MAPE, MAE, AUC.  
 - **Pipeline de actualización y alertas** basado en datos limpios y reentrenamiento continuo.  
-- **Integración con dashboards** en Looker Studio y almacenamiento seguro en Drive/GitHub.
+- **Integración con dashboards** en [Looker Studio](https://lookerstudio.google.com/reporting/42a8f2b3-c97a-4e49-9792-048cd5b342eb/page/7XDdF?s=p1pMHtUUhws) y almacenamiento seguro en Drive/GitHub.
 
 ---
 
