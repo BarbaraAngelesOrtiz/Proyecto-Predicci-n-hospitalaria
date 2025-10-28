@@ -38,7 +38,7 @@ Este proyecto representa una simulación profesional que integra las varias etap
 
 - Limpieza, normalización y enriquecimiento de los datasets de ocupación.
 - Implementación de pipelines ETL en Python (extracción desde fuentes CSV y APIs).
-- Integración de datos meteorológicos y demográficos (factores externos).
+- Integración de datos meteorológicos y geográficos (factores externos).
 - Análisis exploratorio (EDA) de los features y targets. 
 
 ### 2️⃣ Data Analysis
@@ -137,13 +137,13 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 ├── Data Analysis/
 │   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
 │   ├── Imágenes DA/                                                   # Visualizaciones y gráficos de Data Analyst
-│   └── Datos para visualización/looker_hospital_demand
+│   └── Datos para visualización/looker_hospital_demand                # Dataset Data Analyst
 │       ├── alertas_pico_valle.csv
 │       ├── base_historica.csv
 │       ├── matriz_correlacion.csv
 │       └── pronostico_ensemble.csv
 │ 
-├── Data Engineer/                                                     # Código Data Engineer
+├── Data Engineer/                                                     # Códigos Data Engineer
 │   ├── Preparacion dataset.ipynb
 │   ├── 1_Fractura_Cadera.ipynb
 │   ├── 2_Insuficiencia_cardiaca.ipynb
@@ -153,7 +153,7 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │
 ├── Machine_Learning/
 │   ├── ML_Code.ipynb                                                  # Código Machine Learning Engineer
-│   └── figuras/                                                        # Visualizaciones y gráficos de Machine Learning Engineer
+│   └── figuras/                                                       # Visualizaciones y gráficos de Machine Learning Engineer
 │       ├── forecasting/
 │       ├── modelo_elegido/
 │       └── modelos/
@@ -192,9 +192,10 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md                           # Reporte de Data Engineer de Ocupación Hospitalaria
 │   ├── Resumen_ejecutivo_ML.md                                       # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
 │   ├── README Bot – ChromeAI.md                                      # Descripción general del Bot Chrome AI
+│   ├── Readme Agentes.md                                             # Descripción general de los Agentes de automatización
 │   ├── imagen BOT AI                                                 # Visualizaciones del Bot Chrome AI
 │   ├── imagen Agentes                                                # Visualizaciones de los Agentes de automatización
-│   └──xxxx                                                           # Dashboards PowerBI o Plotly
+│   └── Análisis_y_Visualización_de_Demanda_Hospitalaria.pdf          # Dashboards PowerBI o Plotly
 │
 ├── README.md                                                         # Descripción general del proyecto
 └── requirements.txt                                                  # Librerías necesarias para ejecutar el proyecto
@@ -247,12 +248,12 @@ pip install -r requirements.txt
 ## 📂 Accesos del Proyecto
 
 - [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
-- [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Analyst/Fractura_Cadera.ipynb)
+- [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Data%20Analyst/An%C3%A1lisis_y_Visualizaci%C3%B3n_de_Demanda_Hospitalaria01.ipynb)
 - [Notebook Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/tree/main/Data%20Engineer)
   
 - [Reporte ejecutivo Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Resumen_ejecutivo_ML.md)
-- [Reporte Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/REPORTE_DE_ANALISIS_EXPLORATORIO_22.md
-- [Predicción Hospitalaria Bot – ChromeAI](https://github.com/BarbaraAngelesOrtiz/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
+- [Reporte Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/REPORTE_DE_ANALISIS_EXPLORATORIO_22.md)
+- [Predicción Hospitalaria Bot – ChromeAI](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
 - [Predicción Hospitalaria Agentes Inteligentes](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Readme%20Agentes.md)
 
 ---
