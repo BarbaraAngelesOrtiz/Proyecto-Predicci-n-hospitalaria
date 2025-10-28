@@ -116,7 +116,7 @@ Su aplicación práctica puede optimizar la planificación hospitalaria, anticip
 
 -----
 
-# Author
+# Autora
 **Bárbara Ángeles Ortiz**
 
 <img src="https://github.com/user-attachments/assets/30ea0d40-a7a9-4b19-a835-c474b5cc50fb" width="115">
