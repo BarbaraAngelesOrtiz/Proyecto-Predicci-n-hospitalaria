@@ -15,6 +15,7 @@ Este proyecto representa una simulación profesional que integra las tres etapas
 - Data Engineering: extracción, transformación, carga (ETL) y análisis exploratorio (EDA) de datos hospitalarios históricos.
 - Data Analysis: exploración, visualización y análisis de correlaciones y métricas clave.
 - Machine Learning: entrenamiento y validación de modelos predictivos de ocupación hospitalaria, con proyecciones de forecasting.
+
 -----
 
 ## 🛠️ Stack Tecnológico
@@ -90,6 +91,19 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 - Día con más ocupación.
 - Predicción de camas para mañana.
 - Tendencia de las predicciones.
+
+---
+
+## 💢 Automatización de Monitoreo Hospitalario con Agentes Inteligentes
+
+Sistema de automatización y monitoreo hospitalario que integra dos agentes Python orquestados mediante GitHub Actions.
+Cada agente cumple un rol dentro del pipeline predictivo:
+
+🧩 Agente 1: sincroniza automáticamente los datos de ocupación hospitalaria desde Google Drive hacia Google Sheets, asegurando la actualización diaria del dataset base.
+
+🤖 Agente 2: analiza los datos más recientes, evalúa los niveles de ocupación real y proyectada, y envía alertas automáticas vía Telegram ante posibles situaciones críticas.
+
+Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de Salud en Pacientes Hospitalizados en España, extendiéndolo con capacidades de automatización, integración continua y monitoreo inteligente.
 
 ----
 
