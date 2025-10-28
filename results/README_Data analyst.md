@@ -42,25 +42,25 @@ Total alertas detectadas: **1601**
 Ejemplo (primeras filas):
 
 
-- Provincia: **** | Variable: **camas_habilitadas_planta** | Valor: **6694.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_habilitadas_planta** | Valor: **6694.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_planta** | Valor: **719.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_planta** | Valor: **719.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **43.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **43.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **45.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **45.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **43.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **43.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **44.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **45.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **45.0** | Tipo: **Pico** | Fecha: 
 
-- Provincia: **** | Variable: **camas_ocupadas_uci** | Valor: **47.0** | Tipo: **Pico** | Fecha: 
+- **Provincia:** | Variable: **camas_ocupadas_uci** | Valor: **47.0** | Tipo: **Pico** | Fecha: 
 
 
 ## 5. Recomendaciones prácticas
