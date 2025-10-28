@@ -245,12 +245,12 @@ pip install -r requirements.txt
 
 ## Autoras
 
-Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst y Machine Learning Engineer.
+Proyecto desarrollado como parte de una simulación laboral en [NoCountry](https://nocountry.tech/), donde se trabajó en equipo bajo una metodología ágil, integrando roles técnicos de Data Engineer, Data Analyst, Machine Learning Engineer y Automation Engineer.
 
 
 | **Nathaly Muñoz** | **Bárbara Ángeles Ortiz** | **Valeria Donnet** |
 |:---:|:---:|:---:|
-| <img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer<br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
+| <img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer y Automation Engineer <br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
 
 
 ![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
