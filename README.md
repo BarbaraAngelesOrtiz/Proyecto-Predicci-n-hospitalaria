@@ -128,24 +128,24 @@ Herramienta interactiva en JavaScript que analiza datos hospitalarios y predicci
 │     ├── manifest.json                                               # Configuración de la extensión de Chrome (ChromeAI)
 │     ├── style.css                                                   # (opcional) Estilos visuales  
 │     ├── data/
-│     │      ├── hospital_data.csv                                   # Ejemplo de datos históricos  
-│     │      └── predicciones.csv                                    # Ejemplo de datos de predicción  
+│     │      ├── hospital_data.csv                                    # Ejemplo de datos históricos  
+│     │      └── predicciones.csv                                     # Ejemplo de datos de predicción  
 │     │  
-│     ├── icon128.png                                                # Icono de alta resolución
-│     ├── icon48.png                                                 # Icono del bot (para la extensión)
-│     ├── icon16.png                                                 # Icono pequeño que aparece en la barra de extensiones de Chrome
-│     └── README.md                                                  # Documentación del proyecto
+│     ├── icon128.png                                                 # Icono de alta resolución
+│     ├── icon48.png                                                  # Icono del bot (para la extensión)
+│     ├── icon16.png                                                  # Icono pequeño que aparece en la barra de extensiones de Chrome
+│     └── README.md                                                   # Documentación del proyecto
 │
 ├── results/
-│   ├── media/                                  # Visualizaciones y gráficos de Data engineer
-│   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md     # Reporte de Data Engineer de Ocupación Hospitalaria
-│   ├── Resumen_ejecutivo_ML.md                 # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
-│   ├── README Bot – ChromeAI.md                # Descripción general del Bot Chrome AI
-│   ├── imagen BOT AI                           # Visualizaciones del Bot Chrome AI
-│   └──xxxx                                     # Dashboards PowerBI o Plotly
+│   ├── media/                                                        # Visualizaciones y gráficos de Data engineer
+│   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md                           # Reporte de Data Engineer de Ocupación Hospitalaria
+│   ├── Resumen_ejecutivo_ML.md                                       # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
+│   ├── README Bot – ChromeAI.md                                      # Descripción general del Bot Chrome AI
+│   ├── imagen BOT AI                                                 # Visualizaciones del Bot Chrome AI
+│   └──xxxx                                                           # Dashboards PowerBI o Plotly
 │
-├── README.md                                   # Descripción general del proyecto
-└── requirements.txt                            # Librerías necesarias para ejecutar el proyecto
+├── README.md                                                         # Descripción general del proyecto
+└── requirements.txt                                                  # Librerías necesarias para ejecutar el proyecto
 ```
 
 ---
