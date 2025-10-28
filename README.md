@@ -128,22 +128,22 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 
 📁 Proyecto-Predicci-n-hospitalaria/
 ├── data/
-│   ├── raw/                                                           # Datos originales
-│   └──clean/                                                          # Datos limpios y listos para análisis
-│     ├── predicciones_random_forest.csv                               # Dataset ML Forecasting 
-│     ├── forecast_random_forest_resto_2025_.csv                       # Dataset ML Modelo elegido
-│     └── 1_camas_hosp_clima_encod.csv                                 # Dataset Data Engineer 
+│   ├── raw/                                                          # Datos originales
+│   └──clean/                                                         # Datos limpios y listos para análisis
+│     ├── predicciones_random_forest.csv                              # Dataset ML Forecasting 
+│     ├── forecast_random_forest_resto_2025_.csv                      # Dataset ML Modelo elegido
+│     └── 1_camas_hosp_clima_encod.csv                                # Dataset Data Engineer 
 │ 
 ├── Data Analysis/
-│   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb       # Código Data Analyst 
-│   ├── Imágenes DA/                                                   # Visualizaciones y gráficos de Data Analyst
-│   └── Datos para visualización/looker_hospital_demand                # Dataset Data Analyst
+│   ├── Análisis_y_Visualización_de_Demanda_Hospitalaria01.ipynb      # Código Data Analyst 
+│   ├── Imágenes DA/                                                  # Visualizaciones y gráficos de Data Analyst
+│   └── Datos para visualización/looker_hospital_demand               # Dataset Data Analyst
 │       ├── alertas_pico_valle.csv
 │       ├── base_historica.csv
 │       ├── matriz_correlacion.csv
 │       └── pronostico_ensemble.csv
 │ 
-├── Data Engineer/                                                     # Códigos Data Engineer
+├── Data Engineer/                                                    # Códigos Data Engineer
 │   ├── Preparacion dataset.ipynb
 │   ├── 1_Fractura_Cadera.ipynb
 │   ├── 2_Insuficiencia_cardiaca.ipynb
@@ -152,8 +152,8 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │   └── 5_epoc.ipynb                                                              
 │
 ├── Machine_Learning/
-│   ├── ML_Code.ipynb                                                  # Código Machine Learning Engineer
-│   └── figuras/                                                       # Visualizaciones y gráficos de Machine Learning Engineer
+│   ├── ML_Code.ipynb                                                 # Código Machine Learning Engineer
+│   └── figuras/                                                      # Visualizaciones y gráficos de Machine Learning Engineer
 │       ├── forecasting/
 │       ├── modelo_elegido/
 │       └── modelos/
@@ -190,11 +190,12 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 ├── results/
 │   ├── media/                                                        # Visualizaciones y gráficos de Data engineer
 │   ├── REPORTE DE ANÁLISIS EXPLORATORIO.md                           # Reporte de Data Engineer de Ocupación Hospitalaria
-│   ├── Resumen_ejecutivo_ML.md                                       # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
-│   ├── README Bot – ChromeAI.md                                      # Descripción general del Bot Chrome AI
-│   ├── Readme Agentes.md                                             # Descripción general de los Agentes de automatización
+│   ├── Reporte_Machine_Learning.md                                   # Reporte de Modelado y Forecasting de Ocupación Hospitalaria
+│   ├── Reporte Bot – ChromeAI.md                                     # Descripción general del Bot Chrome AI
+│   ├── Reporte Agentes.md                                            # Descripción general de los Agentes de automatización
 │   ├── imagen BOT AI                                                 # Visualizaciones del Bot Chrome AI
 │   ├── imagen Agentes                                                # Visualizaciones de los Agentes de automatización
+│   ├── Informe Tecnico Hospitalario.md                               # Informe de Planificación Basada en Resultados y Documentación Técnica
 │   └── Análisis_y_Visualización_de_Demanda_Hospitalaria.pdf          # Dashboards PowerBI o Plotly
 │
 ├── README.md                                                         # Descripción general del proyecto
