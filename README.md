@@ -5,6 +5,8 @@
 
 Desarrollo integral de un sistema de análisis, modelado predictivo, forecasting y automatización de ocupación hospitalaria utilizando datos reales simulados de distintas provincias y hospitales de España.
 
+[Video demo](https://www.youtube.com/watch?v=govwa3ibkH0)
+
 ------
 ## 🚀 Objetivo del Proyecto
 
