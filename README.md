@@ -144,12 +144,8 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │       └── pronostico_ensemble.csv
 │ 
 ├── Data Engineer/                                                    # Códigos Data Engineer
-│   ├── Preparacion dataset.ipynb
-│   ├── 1_Fractura_Cadera.ipynb
-│   ├── 2_Insuficiencia_cardiaca.ipynb
-│   ├── 3_Infarto_agudo_miocardio.ipynb
-│   ├── 4_ictus.ipynb
-│   └── 5_epoc.ipynb                                                              
+│   └── Limpieza e ingesta_28_10.ipynb
+│                             
 │
 ├── Machine_Learning/
 │   ├── ML_Code.ipynb                                                 # Código Machine Learning Engineer
