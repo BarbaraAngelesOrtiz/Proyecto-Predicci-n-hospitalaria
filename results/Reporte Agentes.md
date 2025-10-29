@@ -21,6 +21,7 @@ Automáticamente:
 - Los sube al [**Google Spreadsheet**](https://docs.google.com/spreadsheets/d/1LjwDLl9KPb1Zid3uYbDMo99rCDElX2WxmY82phOFY3w/edit?gid=294779051#gid=294779051) `Predicciones Hospitalarias`, actualizando las hojas:
   - `hospital_data`
   - `predicciones`
+  - `alertas_log`
 
 De esta forma se mantiene un **repositorio centralizado y actualizado** de información histórica y predictiva.
 
