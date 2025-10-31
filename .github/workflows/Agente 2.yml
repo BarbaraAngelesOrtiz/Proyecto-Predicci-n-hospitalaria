@@ -1,8 +1,8 @@
 name: Agent 2 - Alertas Ocupación
 
 on:
-  schedule:
-    - cron: "0 18 * * *"  # todos los días a las 18 UTC
+#  schedule:
+#    - cron: "0 18 * * *"  # todos los días a las 18 UTC
   workflow_dispatch:
 
 jobs:
