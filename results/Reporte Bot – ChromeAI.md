@@ -9,9 +9,9 @@ Los archivos csv de datos historicos y predicción forecasting son producto del 
 
 ## 🚀 Características principales
 
-✅ Carga y análisis de datos históricos hospitalarios (hospital_data.csv)
+✅ Carga y análisis de datos históricos hospitalarios (hospital_data.csv) Contiene datos desde el 1 de enero de 2022 hasta el 31 de mayo de 2025.
 
-✅ Carga opcional de datos de predicciones (predicciones.csv)
+✅ Carga opcional de datos de predicciones (predicciones.csv) Contiene datos desde el 1 de junio de 2025 hasta el 31 de diciembre de 2025.
 
 ✅ Cálculo automático de promedios por hospital o provincia
 
