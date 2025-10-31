@@ -2,8 +2,8 @@ name: Agente 1 - Uploader Hospital Data
 
 on:
   workflow_dispatch:  # ejecución manual
-  schedule:
-    - cron: "0 18 * * *"  # todos los días a las 6 PM UTC
+ # schedule:
+ #   - cron: "0 18 * * *"  # todos los días a las 6 PM UTC
 
 jobs:
   upload-hospital-data:
