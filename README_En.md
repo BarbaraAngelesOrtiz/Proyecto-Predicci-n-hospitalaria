@@ -268,29 +268,27 @@ pip install -r requirements.txt
 Project developed as part of a work simulation in [NoCountry](https://nocountry.tech/), where we worked as a team using an agile methodology, integrating technical roles such as Data Engineer, Data Analyst, Machine Learning Engineer, and Automation Engineer.
 
 | **Nathaly Muñoz** | **Bárbara Ortiz** | **Valeria Donnet** |
-
-:---:|:---:|:---:|
-
-<img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer and <br> Automation Engineer <br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
+|:---:|:---:|:---:|
+| <img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer y <br> Automation Engineer <br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
 
 
-![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 October 2025
+![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![NumPy](https://img.shields.io/badge/numpy-1.26.0-blue)
 ![Pandas](https://img.shields.io/badge/pandas-2.1.0-blue)
 
-![scikit-learn](https://img.shields.io/badge/scikit--learn-1 .3.0-orange)
+![scikit-learn](https://img.shields.io/badge/scikit--learn-1.3.0-orange)
 ![XGBoost](https://img.shields.io/badge/xgboost-1.7.6-red)
 
 ![Matplotlib](https://img.shields.io/badge/matplotlib-3.8.0-blue)
 ![Seaborn](https://img.shields.io/badge/seaborn-0.12.2-pink)
-![Plotly](https://img.shields.io/badge/ plotly-5.16.1-lightblue)
+![Plotly](https://img.shields.io/badge/plotly-5.16.1-lightblue)
 
 ![JavaScript](https://img.shields.io/badge/JavaScript-yellow)
 ![PapaParse](https://img.shields.io/badge/PapaParse-lightgrey)
 ![HTML+CSS](https://img.shields.io/badge/HTML%2BCSS-blue)
-![CSV](https://img.shields.io/ badge/CSV-brightgreen)
+![CSV](https://img.shields.io/badge/CSV-brightgreen)
 
 ![GoogleAPI](https://img.shields.io/badge/Google_API-integrated-yellow)
 ![Telegram](https://img.shields.io/badge/Alerts-Telegram-blueviolet)
