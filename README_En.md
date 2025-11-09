@@ -145,7 +145,7 @@ This system complements the main project, Predictive Model of Health Deteriorati
 ├── Data Analysis/
 │     ├── Analysis_and_Visualization_of_Hospital_Demand01.ipynb                 # Data Analyst Code
 │     ├── DA Images/                                                            # Data Analyst Visualizations and Charts
-│     └── Data for Visualization/ looker_hospital_demand                        # Data Analyst Dataset
+│     └── Data Visualization/ looker_hospital_demand                        # Data Analyst Dataset
 │         ├── peak_valley_alerts.csv
 │         ├── historical_database.csv
 │         ├── correlation_matrix.csv
