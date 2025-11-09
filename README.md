@@ -169,8 +169,7 @@ Este sistema complementa el proyecto principal Modelo Predictivo de Deterioro de
 │     │  
 │     ├── icon128.png                                                 # Icono de alta resolución
 │     ├── icon48.png                                                  # Icono del bot (para la extensión)
-│     ├── icon16.png                                                  # Icono pequeño que aparece en la barra de extensiones de Chrome
-│     └── README.md                                                   # Documentación del proyecto
+│     └── icon16.png                                                  # Icono pequeño que aparece en la barra de extensiones de Chrome
 │
 ├── Agentes_Automatizacion/
 │     ├── Agente1_data.py                                             # Agente que sincroniza datos desde Google Drive a Google Sheets
