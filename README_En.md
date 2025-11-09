@@ -165,74 +165,73 @@ This system complements the main project, Predictive Model of Health Deteriorati
 ```bash
 📁 Hospital Forecasting Project/
 ├── data/
-│ ├── raw/ # Original data
-│ └──clean/ # Clean data ready for analysis
-│ ├── predictions_random_forest.csv # ML Forecasting Dataset
-│ ├── forecast_random_forest_rest_2025_.csv # ML Dataset of the chosen model
-│ └── 1_hospital_beds_climate_encoded.csv # Data Engineer Dataset
+│     ├── raw/                                                                  # Original data
+│     └──clean/                                                                 # Clean data ready for analysis
+│         ├── predictions_random_forest.csv                                     # ML Forecasting Dataset
+│         ├── forecast_random_forest_rest_2025_.csv                             # ML Dataset of the chosen model
+│         └── 1_hospital_beds_climate_encoded.csv                               # Data Engineer Dataset
 │
 ├── Data Analysis/
-│ ├── Analysis_and_Visualization_of_Hospital_Demand01.ipynb # Data Analyst Code
-│ ├── DA Images/ # Data Analyst Visualizations and Charts
-│ └── Data for Visualization/looker_hospital_demand # Data Analyst Dataset
-│ ├── peak_valley_alerts.csv
-│ ├── historical_database.csv
-│ ├── correlation_matrix.csv
-│ └── ensemble_forecast.csv
+│     ├── Analysis_and_Visualization_of_Hospital_Demand01.ipynb                 # Data Analyst Code
+│     ├── DA Images/                                                            # Data Analyst Visualizations and Charts
+│     └── Data for Visualization/looker_hospital_demand                         # Data Analyst Dataset
+│         ├── peak_valley_alerts.csv
+│         ├── historical_database.csv
+│         ├── correlation_matrix.csv
+│         └── ensemble_forecast.csv
 │
-├── Data Engineer/ # Data Engineer Codes
-│ └── Cleaning and Ingestion_28_10.ipynb
+├── Data Engineer/                                                              # Data Engineer Codes
+│     └── Cleaning and Ingestion_28_10.ipynb
 │
 │
 ├── Machine_Learning/
-│ ├── ML_Code.ipynb # Machine Learning Engineer Code
-│ └── figures/ # Machine Learning Engineer visualizations and graphs
-│ ├── forecasting/
-│ ├── chosen_model/
-│ └── models/
+│     ├── ML_Code.ipynb                                                         # Machine Learning Engineer Code
+│     └── figures/                                                              # Machine Learning Engineer visualizations and graphs
+│          ├── forecasting/
+│          ├── chosen_model/
+│          └── models/
 │
 ├── Hospital-Prediction-Bot-ChromeAI/
-│ │
-│ ├── popup.html # Main interface
-│ ├── popup.js # Analysis logic and interactive bot
-│ ├── papaparse.min.js # Library for reading and processing CSV files
-│ ├── manifest.json # Chrome extension configuration (ChromeAI)
-│ ├── style.css # (optional) Visual styles
-│ ├── data/
-│ │ ├── hospital_data.csv # Dataset Data Engineer
-│ │ └── predictions.csv # Dataset ML Forecasting
-│ │
-│ ├── icon128.png # High-resolution icon
-│ ├── icon48.png # Bot icon (for the extension)
-│ ├── icon16.png # Small icon that appears in the Chrome extensions bar
-│ └── README.md # Project documentation
+│     │
+│     ├── popup.html                                                            # Main interface
+│     ├── popup.js                                                              # Analysis logic and interactive bot
+│     ├── papaparse.min.js                                                      # Library for reading and processing CSV files
+│     ├── manifest.json                                                         # Chrome extension configuration (ChromeAI)
+│     ├── style.css                                                             # (optional) Visual styles
+│     ├── data/
+│     │   ├── hospital_data.csv                                                 # Dataset Data Engineer
+│     │   └── predictions.csv                                                   # Dataset ML Forecasting
+│     │
+│     ├── icon128.png                                                           # High-resolution icon
+│     ├── icon48.png                                                            # Bot icon (for the extension)
+│     └── icon16.png                                                            # Small icon that appears in the Chrome extensions bar
 │
 ├── Automation_Agents/
-│ ├── Agent1_data.py # Agent that synchronizes data from Google Drive to Google Sheets
-│ ├── Agent2_alerts.py # Agent that analyzes occupancy and sends alerts
-│ ├── data/ # Clean data ready for analysis
-│ │ ├── hospital_data.csv # Data Engineer Dataset
-│ │ └── predictions.csv # ML Forecasting Dataset
-│ └── image/ # Agent visualizations and graphs
+│     ├── Agent1_data.py                                                        # Agent that synchronizes data from Google Drive to Google Sheets
+│     ├── Agent2_alerts.py                                                      # Agent that analyzes occupancy and sends alerts
+│     ├── data/                                                                 # Clean data ready for analysis
+│     │     ├── hospital_data.csv                                               # Data Engineer Dataset
+│     │     └── predictions.csv                                                 # ML Forecasting Dataset
+│     └── image/                                                                # Agent visualizations and graphs
 │
 ├── .github/
-│ └── workflows/
-│ ├── Agent1.yaml # Agent Workflow 1: Drive → Sheets Data Synchronization
-│ └── Agent 2.yaml # Agent 2 Workflow: Analyzes data and generates occupancy alerts via Telegram
+│     └── workflows/
+│         ├── Agent1.yaml                                                       # Agent Workflow 1: Drive → Sheets Data Synchronization
+│         └── Agent 2.yaml                                                      # Agent 2 Workflow: Analyzes data and generates occupancy alerts via Telegram
 │
 ├── results/
-│ ├── media/ # Data Engineer visualizations and charts
-│ ├── EXPLORATORY ANALYSIS REPORT.md # Data Engineer's Hospital Occupancy Report
-│ ├── Machine_Learning_Report.md # Hospital Occupancy Modeling and Forecasting Report
-│ ├── Bot Report – ChromeAI.md # Chrome AI Bot Overview
-│ ├── Agents Report.md # Automation Agents Overview
-│ ├── AI Bot Image # Chrome AI Bot Visualizations
-│ ├── Agents Image # Automation Agent Visualizations
-│ ├── Hospital Technical Report.md # Results-Based Planning Report and Technical Documentation
-│ └── Hospital Demand Analysis and Visualization.pdf # Power BI or Plotly Dashboards
+│     ├── media/                                                                # Data Engineer visualizations and charts
+│     ├── EXPLORATORY ANALYSIS REPORT.md                                        # Data Engineer's Hospital Occupancy Report
+│     ├── Machine_Learning_Report.md                                            # Hospital Occupancy Modeling and Forecasting Report
+│     ├── Bot Report – ChromeAI.md                                              # Chrome AI Bot Overview
+│     ├── Agents Report.md                                                      # Automation Agents Overview
+│     ├── AI Bot Image                                                          # Chrome AI Bot Visualizations
+│     ├── Agents Image                                                          # Automation Agent Visualizations
+│     ├── Hospital Technical Report.md                                          # Results-Based Planning Report and Technical Documentation
+│     └── Hospital Demand Analysis and Visualization.pdf                        # Power BI or Plotly Dashboards
 │
-├── README.md # Project overview
-└── requirements.txt # Libraries required to run the project
+├── README.md                                                                   # Project overview
+└── requirements.txt                                                            # Libraries required to run the project
 ```
 
 ---
