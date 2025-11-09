@@ -145,7 +145,7 @@ This system complements the main project, Predictive Model of Health Deteriorati
 ├── Data Analysis/
 │     ├── Analysis_and_Visualization_of_Hospital_Demand01.ipynb                 # Data Analyst Code
 │     ├── DA Images/                                                            # Data Analyst Visualizations and Charts
-│     └── Data for Visualization/looker_hospital_demand                         # Data Analyst Dataset
+│     └── Data for Visualization/ looker_hospital_demand                        # Data Analyst Dataset
 │         ├── peak_valley_alerts.csv
 │         ├── historical_database.csv
 │         ├── correlation_matrix.csv
@@ -253,11 +253,11 @@ pip install -r requirements.txt
 
 - [Dashboard Looker](https://lookerstudio.google.com/reporting/42a8f2b3-c97a-4e49-9792-048cd5b342eb/page/7XDdF?s=p1pMHtUUhws)
 - [Notebook Machine Learning](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Machine_Learning/ML_Code.ipynb)
-- [Notebook [Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Data%20Analyst/An%C3%A1lisis_y_Visualizaci%C3%B3n_de_Demanda_Hospitalaria01.ipynb)
+- [Notebook Analysis](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/Data%20Analyst/An%C3%A1lisis_y_Visualizaci%C3%B3n_de_Demanda_Hospitalaria01.ipynb)
 - [Notebook Data Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/tree/main/Data%20Engineer)
 
 - [Machine Learning Executive Report](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Resumen_ejecutivo_ML.md)
-- [Data Report [Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/REPORTE_DE_ANALISIS_EXPLORATORIO_22.md)
+- [Data Report Engineer](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/REPORTE_DE_ANALISIS_EXPLORATORIO_22.md)
 - [Hospital Prediction Bot – ChromeAI](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
 - [Hospital Prediction Intelligent Agents](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Readme%20Agentes.md)
 
@@ -272,7 +272,7 @@ Project developed as part of a work simulation in [NoCountry](https://nocountry.
 | <img src="https://github.com/user-attachments/assets/8110c040-c424-4c9b-9a07-4d725d4023b9" width="120"><br>Data Analyst<br>[LinkedIn](https://www.linkedin.com/in/munozgnathaly/)<br>[GitHub](https://github.com/munozgnathaly-crypto) | <img src="https://github.com/user-attachments/assets/5b09823d-e7eb-4752-97c0-35fc774584d3" width="120"><br>Machine Learning Engineer y <br> Automation Engineer <br>[LinkedIn](https://www.linkedin.com/in/barbaraangelesortiz/)<br>[GitHub](https://github.com/BarbaraAngelesOrtiz) | <img src="https://github.com/user-attachments/assets/5cacc273-213b-4b0b-bde2-f60b2f990137" width="120"><br>Data Engineer<br>[LinkedIn](https://www.linkedin.com/in/valeria-donnet/)<br>[GitHub](https://github.com/valedonnet) |
 
 
-![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 Octubre 2025
+![Status](https://img.shields.io/badge/status-finished-brightgreen) 📅 October 2025
 
 ![Python](https://img.shields.io/badge/python-3.10-blue)
 ![NumPy](https://img.shields.io/badge/numpy-1.26.0-blue)
