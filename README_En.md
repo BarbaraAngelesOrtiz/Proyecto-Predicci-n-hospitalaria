@@ -7,7 +7,8 @@ Comprehensive development of a system for analysis, predictive modeling, forecas
 
 [Video demo](https://www.youtube.com/watch?v=govwa3ibkH0)
 
-------
+----
+
 ## 🚀 Project Objective
 
 The overall objective is to build an analytical and predictive platform to anticipate total hospital bed occupancy (wards and ICU), combining data engineering pipelines, exploratory analysis, machine learning models, future projections, and real-time alerts.
@@ -21,49 +22,36 @@ This project represents a professional simulation that integrates the various st
 
 - Automation Engineer: Downloading and updating hospital data from Google Drive to Google Sheets. Publishing results and sending alerts via Telegram. Interactive visualization of predictions and local CSV files from a browser.
 
------
+----
 
 ## 🛠️ Technology Stack
 
-| Area | Main Tools / Technologies |
+| Area                                         | Main Tools / Technologies                                                       |
+| -------------------------------------------- | ------------------------------------------------------------------------------- |
+| **Data Engineering**                         | Python, Pandas, SQL, ETL pipelines                                              |
+| **Data Analysis**                            | Pandas, Seaborn, Matplotlib, Plotly, Looker                                     |
+| **Machine Learning**                         | Scikit-learn, XGBoost, Random Forest, MLPRegressor, Logistic Regression         |
+| **Forecasting**                              | Random Forest Regressor, análisis temporal                                      |
+| **Infrastructure**                           | Google Colab / Jupyter Notebooks                                                |
+| **Automation & Monitoring**                  | GitHub Actions, Google Drive API, Google Sheets API (GSpread), Telegram Bot API |
+| **Interactive Applications (ChromeAI Bot)**  | JavaScript, HTML, CSS, PapaParse, Chrome Extensions API                         |
 
--------------------------------------------- | ------------------------------------------------------------------------------- |
+----
 
-**Data Engineering** | Python, Pandas, SQL, ETL pipelines |
-
-**Data Analysis** | Pandas, Seaborn, Matplotlib, Plotly, Looker |
-
-**Machine Learning** | Scikit-learn, XGBoost, Random Forest, MLP Regressor, Logistic Regression |
-
-**Forecasting** | Random Forest Regressor, time frame analysis |
-
-**Infrastructure** | Google Colab / Jupyter Notebooks |
-
-**Automation & Monitoring** | GitHub Actions, Google Drive API, Google Sheets API (GSpread), Telegram Bot API |
-
-**Interactive Applications (ChromeAI Bot)** | JavaScript, HTML, CSS, PapaParse, Chrome Extensions API |
-
------
 ## 📊 General Project Flow
 
 ### 1️⃣ Data Engineering
 
 - Cleaning, normalization, and enrichment of occupancy datasets.
-
 - Implementation of ETL pipelines in Python (extraction from CSV sources and APIs).
-
 - Integration of meteorological and geographic data (external factors).
-
 - Exploratory Data Analysis (EDA) of features and targets.
 
 ### 2️⃣ Data Analysis
 
 - Exploratory Data Analysis (EDA) with dynamic visualizations (Seaborn, Plotly).
-
 - Calculation of correlations between variables (occupancy, climate, geographic location).
-
 - Creation of dashboards in Looker and interactive notebooks for results interpretation.
-
 - Heatmaps and comparative graphs by hospital and province.
 
 ### 3️⃣ Machine Learning
@@ -71,48 +59,40 @@ This project represents a professional simulation that integrates the various st
 - Training of regression and classification models: Random Forest, Linear Regression, XGBoost, MLPRegressor, Logistic Regression
 - Performance evaluation using metrics: R², MAE, AUC-ROC, Precision-Recall
 - Final selection of the Random Forest model due to its robustness and balanced performance.
-
 - Generation of occupancy predictions and forecasts until December 2025.
 
 ### 4️⃣ Automation and Monitoring
 
 - Daily scheduled execution using GitHub Actions (cron).
-
 - Sending alerts via Telegram Bot API when critical levels are detected.
-
 - Log storage and traceability in the repository.
 
 ### 5️⃣ Interactive Application (ChromeAI Bot)
 
 - Browser extension developed with JavaScript, HTML, and CSS.
-
 - Local reading and processing of CSV files using PapaParse.
-
 - Real-time visualization of predictions and indicators.
-
 - Educational and accessible interface for non-technical users.
 
-------
+----
+
 ## 🤖 Main Results
 
 - Top Models: Random Forest and Logistic Regression (AUC-ROC = 0.92)
 - Confusion matrix with 86% overall accuracy.
-
 - Linear Regression offers the best accuracy for general occupancy.
-
 - Random Forest is established as the most robust and versatile model, especially for critical ICU prediction.
 
 ----
+
 ## 🔮 Forecasting (Future Prediction)
 
 - Random Forest model forecast from June to December 2025.
 - Stable prediction (range 420–480 beds) with seasonal fluctuations.
-
 - Disaggregated analysis by province and hospital shows key regional differences.
-
 - Identification of temporary peaks and critical outliers for resource management.
 
------
+----
 
 ## 💬 Hospital Prediction Bot – ChromeAI
 
@@ -121,30 +101,21 @@ Interactive JavaScript tool that analyzes hospital data and bed occupancy predic
 📈 Main Features
 
 - Loading and analysis of historical data and predictions.
-
 - Calculation of averages by hospital or province.
-
 - Identification of the day with the highest occupancy.
-
 - Trend detection and query of higher predictions.
-
 - Simple chatbot interface for interactive queries.
 
 🧠 Questions the bot can answer
 
 - Overall average bed occupancy.
-
 - Busiest hospital.
-
 - Average by hospital or province.
-
 - Day with the highest occupancy.
-
 - Bed occupancy prediction for tomorrow.
-
 - Trend of predictions.
 
---
+----
 
 ## 💢 Hospital Monitoring Automation with Intelligent Agents
 
@@ -234,7 +205,7 @@ This system complements the main project, Predictive Model of Health Deteriorati
 └── requirements.txt                                                            # Libraries required to run the project
 ```
 
----
+----
 
 ## 🛠️ Instructions for Running the Notebook
 
@@ -264,24 +235,19 @@ pip install -r requirements.txt
 4. Open the notebook:
 
 - Google Colab: Upload the notebook and the data, and run the cells.
-
 - Jupyter Notebook / VSCode: Open notebooks/Project.ipynb and run the cells sequentially.
 
 5. Run Cells:
 
 - Recommended order: data cleaning → feature/target definition → model training → evaluation → forecasting → results export.
-
 - Data CSV files should be located in the data/ folder.
 
 6. Export Results:
 
 - CSV files with predictions are generated in data/ by default.
-
 - Graphs and figures are saved in results/media/ and Machime_Learning/figuras.
 
------
-
------
+----
 
 ## 📂 Project Access
 
@@ -295,7 +261,7 @@ pip install -r requirements.txt
 - [Hospital Prediction Bot – ChromeAI](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/README%20%20Bot%20%E2%80%93%20ChromeAI.md)
 - [Hospital Prediction Intelligent Agents](https://github.com/munozgnathaly-crypto/Proyecto-Predicci-n-hospitalaria/blob/main/results/Readme%20Agentes.md)
 
----
+----
 
 ## Authors
 
@@ -329,6 +295,8 @@ Project developed as part of a work simulation in [NoCountry](https://nocountry.
 ![GoogleAPI](https://img.shields.io/badge/Google_API-integrated-yellow)
 ![Telegram](https://img.shields.io/badge/Alerts-Telegram-blueviolet)
 ![GitHubActions](https://img.shields.io/badge/CI-GitHub_Actions-black)
+
+----
 
 ## Acknowledgments
 
