@@ -3,7 +3,7 @@ name: Agent 2 - Alertas Ocupación
 on:
  workflow_dispatch:  # ejecución manual
  schedule:
- - cron: "0 18 * * *"  # todos los días a las 6:05PM UTC
+ - cron: "05 18 * * *"  # todos los días a las 6:05PM UTC
 
 jobs:
   run-agent2:
