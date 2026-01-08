@@ -7,7 +7,7 @@ on:
 
 jobs:
   upload-hospital-data:
-    if: false
+    #if: false
     runs-on: ubuntu-latest
     steps:
       - name: 📦 Checkout repo
