@@ -131,7 +131,7 @@ This system complements the main project, Predictive Model of Health Deteriorati
 
 ----
 
-## 🗂️ Estructura del Repositorio
+## 🗂️ Repository Structure
 
 ```bash
 📁 Hospital Forecasting Project/
